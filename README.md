@@ -37,13 +37,23 @@ A non profit organisation that is dedicated to teaching fundamental skills and r
 
 ### Design 
 
-   Colour Scheme
+Colour Scheme
 * Primary Text - #032b2d (charcoal)
 * Secondary Text - #263a45 (Dark navy)
 * Highlight Text - #f2f5f8 (off-white)
 * Background - #b6e2ec (pale blue)
 * Header and footer - #09747b (dark turquoise)
 * contrast - #dc6413 (orange)
+
+Typography
+* Titles -  Ranchers - Bold and loud while still very readable.
+* Secondary - Overlook - Has a hand-written look to it with rounded edges but is still sophisticated and readable. 
+https://fonts.google.com/share?selection.family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900|Ranchers
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ranchers&display=swap');
+
+
+Images
+    Stock images are taken from iStock (https://www.istockphoto.com/)
 
 
 

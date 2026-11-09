@@ -80,6 +80,9 @@ CSS code for fonts
 Stock images are taken from [iStockphoto](https://www.istockphoto.com/)
 
 #### Wireframes
+
+Created using [Whimsical](https://whimsical.com/slhcode/home-page-12XEufmVGuGHgjxTAYmH9c)
+
 Home page
 ![Homepage](/design%20docs/wireframes/Home%20page%20wireframe%20.png)
 Workshops
@@ -88,6 +91,6 @@ Lectures
 ![Lectures](/design%20docs/wireframes/Lectures%20page%20wireframe.png)
 ContactUs
 ![ContactUs](/design%20docs/wireframes/Contact%20us%20page%20wireframe.png)
-
+git
 
 

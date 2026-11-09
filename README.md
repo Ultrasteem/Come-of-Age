@@ -61,6 +61,8 @@ Assisted by [Claude](https://claude.ai/)
 
 #### Typography
 
+![Image of Fonts from Google Fonts](/design%20docs/Fonts.png)
+
 Chosen and linked from [Google fonts](https://fonts.google.com/share?selection.family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900|Ranchers)
 
 * Titles -  Ranchers - Bold and loud while still very readable.

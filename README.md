@@ -94,14 +94,15 @@ ContactUs
 
 ## Technologies
 ### Site Build
-* HTML
-* CSS Stylesheets
-* Javascript (using [Bootstrap 6.0](https://getbootstrap.com/))
+* HTML - Using semantic design for accessiblity 
+* CSS - Stylesheets 
+* Javascript (using [Bootstrap 6.0](https://getbootstrap.com/)) - forms and responsive design
+* VS Code - Text/code editor
+
 
 ### Documentation
 
 * Git/Github - Versioning and Project management
-* VS Code - Text editor
 * Whimsical - Wireframing 
 
 ### Assets
@@ -111,5 +112,6 @@ ContactUs
 * iStockphoto - Royalty Free Stock Images
 * Image Color Picker - Colour scheme for site
 * Google fonts - Fonts for site
+* Fontawesome - Icons 
 
 

@@ -91,6 +91,25 @@ Lectures
 ![Lectures](/design%20docs/wireframes/Lectures%20page%20wireframe.png)
 ContactUs
 ![ContactUs](/design%20docs/wireframes/Contact%20us%20page%20wireframe.png)
-git
+
+## Technologies
+### Site Build
+* HTML
+* CSS Stylesheets
+* Javascript (using [Bootstrap 6.0](https://getbootstrap.com/))
+
+### Documentation
+
+* Git/Github - Versioning and Project management
+* VS Code - Text editor
+* Whimsical - Wireframing 
+
+### Assets
+
+* Gemini - AI Image generation
+* Claude - text generation for site and prompts for gemini
+* iStockphoto - Royalty Free Stock Images
+* Image Color Picker - Colour scheme for site
+* Google fonts - Fonts for site
 
 

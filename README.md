@@ -39,11 +39,9 @@ This README is used to document the progress of the project and the usage of the
 
 ### Design 
 
-Colour Scheme
+#### Colour Scheme
 
-![image of colour scheme](/design%20docs/colour%20scheme.png)
-
-Chosen through [Colour Picker](https://imagecolorpicker.com/)
+![image of colour scheme](/design%20docs/colour%20scheme.png) 
 
 * Primary Text - #032b2d (charcoal)
 * Secondary Text - #263a45 (Dark navy)
@@ -52,15 +50,32 @@ Chosen through [Colour Picker](https://imagecolorpicker.com/)
 * Header and footer - #09747b (dark turquoise)
 * contrast - #dc6413 (orange)
 
-Typography
+Chosen through [Colour Picker](https://imagecolorpicker.com/) using image generated through [Gemini](https://gemini.google.com/)
+![Inspiration image Gemini Generated](/design%20docs/Inspiration%20image%20Generated%20through%20Gemini.jpg)
+Using following prompt
+
+"Realistic photograph of a bright, airy life skills workshop for late teenagers in a modern community centre. A friendly teacher in a turquoise shirt stands at the front, clearly visible and fully in frame, mid-demonstration and smiling. Around them, a group of engaged 17 to 19-year-olds sit at shared tables, taking notes, asking questions, and working on practical tasks such as a budgeting worksheet, a laptop with a CV template, and a simple cooking setup. Large windows flood the room with natural daylight, and the lighting is bright, even, and neutral. Casual, relaxed, and welcoming atmosphere, diverse group, shallow depth of field, 35mm lens, high resolution, photorealistic."
+
+Assisted by [Claude](https://claude.ai/) 
+
+
+#### Typography
+
+Chosen and linked from [Google fonts](https://fonts.google.com/share?selection.family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900|Ranchers)
+
 * Titles -  Ranchers - Bold and loud while still very readable.
+
 * Secondary - Overlook - Has a hand-written look to it with rounded edges but is still sophisticated and readable. 
-https://fonts.google.com/share?selection.family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900|Ranchers
+
+
+CSS code for fonts 
+
 @import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ranchers&display=swap');
 
 
-Images
-    Stock images are taken from iStock (https://www.istockphoto.com/)
+#### Images
+
+Stock images are taken from [iStockphoto](https://www.istockphoto.com/)
 
 
 

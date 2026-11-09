@@ -79,6 +79,15 @@ CSS code for fonts
 
 Stock images are taken from [iStockphoto](https://www.istockphoto.com/)
 
+#### Wireframes
+Home page
+![Homepage](/design%20docs/wireframes/Home%20page%20wireframe%20.png)
+Workshops
+![Workshops](/design%20docs/wireframes/Workshops%20page%20wireframe.png)
+Lectures
+![Lectures](/design%20docs/wireframes/Lectures%20page%20wireframe.png)
+ContactUs
+![ContactUs](/design%20docs/wireframes/Contact%20us%20page%20wireframe.png)
 
 
 

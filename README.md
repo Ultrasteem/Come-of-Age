@@ -1,6 +1,8 @@
 # Come-of-Age
 A non profit organisation that is dedicated to teaching fundamental skills and requirements as they grow into adults. Learning how to Adult is not fully taught while in full time education, which is why this organisation provides valuable knowledge, to see today's generation is set up for success. They provide in person lectures and workshops relating to: Personal Finance, Job Searching and CV writing, House Keeping, and Raising a Family. 
 
+This README is used to document the progress of the project and the usage of the website. Other developers of this project can refer to this document in order to better understand this project and its goals. Please make regular changes to this document when making further changes to the project.
+
 ## Project Goals
 
 ### Business Goals
@@ -38,6 +40,11 @@ A non profit organisation that is dedicated to teaching fundamental skills and r
 ### Design 
 
 Colour Scheme
+
+![image of colour scheme](/design%20docs/colour%20scheme.png)
+
+Chosen through [Colour Picker](https://imagecolorpicker.com/)
+
 * Primary Text - #032b2d (charcoal)
 * Secondary Text - #263a45 (Dark navy)
 * Highlight Text - #f2f5f8 (off-white)

@@ -91,9 +91,9 @@ Lectures
 ![Lectures](/design%20docs/wireframes/Lectures%20wireframe%202.png)
 ContactUs
 ![ContactUs](/design%20docs/wireframes/Contact%20us%20wireframe%202.png)
-
+Booking Workshop
 ![BookWorkshop](/design%20docs/wireframes/Book%20your%20Workshop%20wireframe.png)
-
+Booking Success
 ![BookingSuccess](/design%20docs/wireframes/booking%20Success%20wireframe%20.png)
 
 ## Technologies

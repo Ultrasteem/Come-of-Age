@@ -92,6 +92,10 @@ Lectures
 ContactUs
 ![ContactUs](/design%20docs/wireframes/Contact%20us%20wireframe%202.png)
 
+![BookWorkshop](/design%20docs/wireframes/Book%20your%20Workshop%20wireframe.png)
+
+![BookingSuccess](/design%20docs/wireframes/booking%20Success%20wireframe%20.png)
+
 ## Technologies
 ### Site Build
 * HTML - Using semantic design for accessiblity 

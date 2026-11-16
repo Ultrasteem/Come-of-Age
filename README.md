@@ -84,25 +84,25 @@ Stock images are taken from [iStockphoto](https://www.istockphoto.com/)
 Created using [Whimsical](https://whimsical.com/slhcode/home-page-12XEufmVGuGHgjxTAYmH9c)
 
 Home page
-![Homepage](/design%20docs/wireframes/Home%20page%20wireframe%20.png)
+![Homepage](/design%20docs/wireframes/Home%20page%20wireframe%202.png)
 Workshops
-![Workshops](/design%20docs/wireframes/Workshops%20page%20wireframe.png)
+![Workshops](/design%20docs/wireframes/Workshops%20wireframe%202.png)
 Lectures
-![Lectures](/design%20docs/wireframes/Lectures%20page%20wireframe.png)
+![Lectures](/design%20docs/wireframes/Lectures%20wireframe%202.png)
 ContactUs
-![ContactUs](/design%20docs/wireframes/Contact%20us%20page%20wireframe.png)
+![ContactUs](/design%20docs/wireframes/Contact%20us%20wireframe%202.png)
 
 ## Technologies
 ### Site Build
 * HTML - Using semantic design for accessiblity 
 * CSS - Stylesheets 
-* Javascript (using [Bootstrap 6.0](https://getbootstrap.com/)) - forms and responsive design
+* Javascript (using [Bootstrap 6.0](https://getbootstrap.com/)) - navigation, forms and responsive design
 * VS Code - Text/code editor
 
 
 ### Documentation
 
-* Git/Github - Versioning and Project management
+* Git/Github - Versioning, Project management, Deployment
 * Whimsical - Wireframing 
 
 ### Assets

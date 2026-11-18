@@ -37,7 +37,9 @@ body{
     width: 100vw;
 }
 /*nav styles*/
-nav div.container-fluid{
+
+/*fix for bug with navbar scroll*/
+nav div.container-fluid, h1{
     overflow: hidden !important;
    
 }
@@ -53,12 +55,17 @@ nav, nav div dialog{
 
 /*header styles*/
 header{
+    display: flex;
     background-color: var(--header-footer-background-color);
     color: var(--highlight-text-color);
     position: relative;
     padding-top: 70px;
-   
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    
 }
+
 
 /*main-content styles and set width, height*/
 #main-content{

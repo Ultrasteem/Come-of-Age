@@ -36,12 +36,20 @@ body{
     width: 100vw;
 }
 /*nav styles*/
+nav, nav div dialog{
+    background-color: var(--header-footer-background-color);
+    color: var(--highlight-text-color);
+    z-index: 1000;
+
+}
+
 
 /*header styles*/
 header{
     background-color: var(--header-footer-background-color);
     color: var(--highlight-text-color);
-    height: fit-content;
+    position: relative;
+    padding-top: 70px;
    
 }
 
@@ -62,14 +70,3 @@ footer{
     width: 100%;
 }
 
-/*test styles for headings and paragraphs*/
-/* h1{
-    color: var(--primary-text-color);
-    background-color: var(--header-footer-background-color);
-    font-family: var(--heading-font);
-
-}
-p{
-    color: var(--secondary-text-color);
-    font-family: var(--primary-font);
-} */

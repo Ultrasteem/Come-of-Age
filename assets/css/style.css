@@ -13,22 +13,57 @@
     --heading-font: 'Ranchers', sans-serif;
 }
 
-/*testing*/
+/*Global Styles*/
+
 *{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     
-    
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+}
+p{
+    font-family: var(--primary-font);
+}
+
+/*set flex box and styles for body*/
 body{
-    background-color: var(--primary-background-color);
+    
     display: flex;
     flex-direction: column;
+    width: 100vw;
+}
+/*nav styles*/
+
+/*header styles*/
+header{
+    background-color: var(--header-footer-background-color);
+    color: var(--highlight-text-color);
+    height: fit-content;
+   
 }
 
+/*main-content styles and set width, height*/
+#main-content{
+    width: 100vw;
+    min-height: 1000px;
+    background-color: var(--primary-background-color);
+    
+}
 
-h1{
+/*footer styles*/
+footer{
+    background-color: var(--header-footer-background-color);
+    color: var(--highlight-text-color);
+    height: fit-content;
+    bottom: 0;
+    width: 100%;
+}
+
+/*test styles for headings and paragraphs*/
+/* h1{
     color: var(--primary-text-color);
     background-color: var(--header-footer-background-color);
     font-family: var(--heading-font);
@@ -37,4 +72,4 @@ h1{
 p{
     color: var(--secondary-text-color);
     font-family: var(--primary-font);
-}
+} */

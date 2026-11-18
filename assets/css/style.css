@@ -19,6 +19,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    overflow-y: auto;
     
 }
 h1, h2, h3, h4, h5, h6{
@@ -36,10 +37,16 @@ body{
     width: 100vw;
 }
 /*nav styles*/
+nav div.container-fluid{
+    overflow: hidden !important;
+   
+}
+
 nav, nav div dialog{
     background-color: var(--header-footer-background-color);
     color: var(--highlight-text-color);
-    z-index: 1000;
+    height: fit-content;
+    overflow: hidden;
 
 }
 

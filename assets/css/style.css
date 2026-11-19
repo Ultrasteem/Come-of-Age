@@ -49,6 +49,7 @@ nav, nav div dialog{
     color: var(--highlight-text-color);
     height: fit-content;
     overflow: hidden;
+    padding: 0px 7px;
 
 }
 
@@ -65,7 +66,15 @@ header{
     justify-content: center;
     
 }
+/*fix width of header container*/
+header div.container.text-center{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    max-width: 100vw;
+}
 
+/*fix sizing and alignment of header title and hero image*/
 header div.container div.grid div{
     display: flex;
     align-items: center;

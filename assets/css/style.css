@@ -95,15 +95,12 @@ main section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: fit-content;
     background-color: red;
     margin-top: 1.2rem;
-    margin-left: auto;
-    margin-right: auto;
     
     
 }
+
 
 
 

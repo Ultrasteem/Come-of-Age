@@ -39,7 +39,7 @@ body{
 /*nav styles*/
 
 /*fix for bug with navbar scroll*/
-nav div.container-fluid, h1{
+nav div.container-fluid, h1,p{
     overflow: hidden !important;
    
 }

@@ -95,12 +95,28 @@ main section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
+    /* background-color: red; */
     margin-top: 1.2rem;
-    
-    
 }
+/*card styling*/
+.testemonial-card{
+    background-color: var(--accent-color);
+    width: auto;
+    max-width: 300px;
+   
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1.2rem;
 
+}
+.card-text{
+    margin:5px 10px;
+}
 
 
 
@@ -113,3 +129,6 @@ footer{
     width: 100%;
 }
 
+.footer-info{
+    padding:1.5rem;
+}

@@ -132,3 +132,10 @@ footer{
 .footer-info{
     padding:1.5rem;
 }
+
+.social-media-icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}

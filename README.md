@@ -84,40 +84,34 @@ Stock images are taken from [iStockphoto](https://www.istockphoto.com/)
 Created using [Whimsical](https://whimsical.com/slhcode/home-page-12XEufmVGuGHgjxTAYmH9c)
 
 Home page
-![Homepage](/design%20docs/wireframes/Home%20page%20wireframe%202.png)
+![Homepage](/design%20docs/wireframes/Home%20page%20wireframe%20.png)
 Workshops
-![Workshops](/design%20docs/wireframes/Workshops%20wireframe%202.png)
+![Workshops](/design%20docs/wireframes/Workshops%20page%20wireframe.png)
 Lectures
-![Lectures](/design%20docs/wireframes/Lectures%20wireframe%202.png)
+![Lectures](/design%20docs/wireframes/Lectures%20page%20wireframe.png)
 ContactUs
-![ContactUs](/design%20docs/wireframes/Contact%20us%20wireframe%202.png)
-Booking Workshop
-![BookWorkshop](/design%20docs/wireframes/Book%20your%20Workshop%20wireframe.png)
-Booking Success
-![BookingSuccess](/design%20docs/wireframes/booking%20Success%20wireframe%20.png)
+![ContactUs](/design%20docs/wireframes/Contact%20us%20page%20wireframe.png)
 
 ## Technologies
 ### Site Build
 * HTML - Using semantic design for accessiblity 
 * CSS - Stylesheets 
-* Javascript (using [Bootstrap 6.0](https://getbootstrap.com/)) - navigation, forms and responsive design
+* Javascript (using [Bootstrap 6.0](https://getbootstrap.com/)) - forms and responsive design
 * VS Code - Text/code editor
 
 
 ### Documentation
 
-* Git/Github - Versioning, Project management, Deployment
+* Git/Github - Versioning and Project management
 * Whimsical - Wireframing 
 
 ### Assets
 
 * Gemini - AI Image generation
 * Claude - text generation for site and prompts for gemini
-* iStockphoto - Royalty Free Stock Images
+* iStockphoto - Copyright Free Stock Images
 * Image Color Picker - Colour scheme for site
 * Google fonts - Fonts for site
 * Fontawesome - Icons 
-
-## Code reference
 
 

@@ -28,6 +28,12 @@ p, li{
     font-family: var(--primary-font);
 }
 
+/*fix for bug with navbar scroll*/
+nav div.container-fluid, h1,p,h4{
+    overflow: hidden !important;
+   
+}
+
 /*set flex box and styles for body*/
 body{
     margin: 0;
@@ -37,12 +43,6 @@ body{
     width: 100vw;
 }
 /*nav styles*/
-
-/*fix for bug with navbar scroll*/
-nav div.container-fluid, h1,p,h4{
-    overflow: hidden !important;
-   
-}
 
 nav, nav div dialog{
     background-color: var(--header-footer-background-color);
@@ -92,12 +92,20 @@ header div.container div.grid div{
     padding-top: 1.5rem;
     
 }
+
 /*general section styling for main content*/
 main section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1.5rem;
 }
+
+/*adjust margin below titles in main content*/
+.section-title{
+    margin-bottom:1.5rem;
+}
+
 /*card styling*/
 .testemonial-card{
     background-color: transparent;
@@ -129,8 +137,6 @@ main section{
 
 
 
-
-
 /*footer styles*/
 footer{
     background-color: var(--header-footer-background-color);
@@ -142,18 +148,24 @@ footer{
 
 .footer-info{
     padding:1.5rem;
+
 }
 
-.social-media-icons{
+/* social media icon styling */
+
+.social-media-icons {
+    margin-top: 1.5rem;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    
-}
-.social-media-icons a{
-        color: inherit !important;
-        text-decoration: none;
+
+    a{
+       color: inherit !important;
+        text-decoration: none; 
+    }
+    p{
+    margin-bottom: 1.5rem;
+    }
 }
 
 

@@ -39,7 +39,7 @@ body{
 /*nav styles*/
 
 /*fix for bug with navbar scroll*/
-nav div.container-fluid, h1,p{
+nav div.container-fluid, h1,p,h4{
     overflow: hidden !important;
    
 }
@@ -85,9 +85,11 @@ header div.container div.grid div{
 /*main-content styles and set width, height*/
 #main-content{
     width: 100vw;
-    min-height: 1000px;
+    height: fit-content;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
     
 }
 /*general section styling for main content*/
@@ -95,14 +97,14 @@ main section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: red; */
-    margin-top: 1.2rem;
 }
 /*card styling*/
 .testemonial-card{
-    background-color: var(--accent-color);
+    background-color: transparent;
     width: auto;
     max-width: 300px;
+    border: none;
+    color: var(--primary-text-color);
    
 }
 .card {
@@ -114,9 +116,18 @@ main section{
     margin-top: 1.2rem;
 
 }
-.card-text{
-    margin:5px 10px;
+.card-body{
+    padding:1rem 2rem;
+    border-top: transparent;
 }
+.testemonial-card img{
+    border-radius: 100%;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+
 
 
 

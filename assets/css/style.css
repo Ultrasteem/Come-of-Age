@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6{
 }
 p, li{
     font-family: var(--primary-font);
+    font-size: larger;
 }
 
 /*fix for bug with navbar scroll*/
@@ -162,6 +163,7 @@ footer{
     a{
        color: inherit !important;
         text-decoration: none; 
+        font-size: x-large;
     }
     p{
     margin-bottom: 1.5rem;

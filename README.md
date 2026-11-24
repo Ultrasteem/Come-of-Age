@@ -109,9 +109,10 @@ ContactUs
 
 * Gemini - AI Image generation
 * Claude - text generation for site and prompts for gemini
-* iStockphoto - Copyright Free Stock Images
+* iStockphoto/Pixabay - Copyright Free Stock Images
 * Image Color Picker - Colour scheme for site
 * Google fonts - Fonts for site
 * Fontawesome - Icons 
+* favicon.io - Favicon
 
 

@@ -118,6 +118,7 @@ Booking Success
 * Image Color Picker - Colour scheme for site
 * Google fonts - Fonts for site
 * Fontawesome - Icons 
+* Favicon.io - Favicons
 
 ## Code reference
 

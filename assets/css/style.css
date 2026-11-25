@@ -80,7 +80,7 @@ header div.container div.grid div{
     align-items: center;
     justify-content: center;
 }
-
+/* workshop page header */
 #workshop-header{
     background-color: var(--accent-color);
 }
@@ -118,6 +118,7 @@ main section{
 }
    
 }
+/* workshop card specific styling */
 .workshop-card{
     margin: 1.25rem;
     background-color: var(--accent-color);
@@ -135,6 +136,10 @@ main section{
         border-radius: 0px;
     }
 }
+/* workshop booking for styles */
+
+
+/* general card styling */
 .card {
     display: flex;
     justify-content: center;

@@ -149,7 +149,17 @@ main section{
     border-top: transparent;
 }
 
+/*Book Now button styling*/
 
+#book-now-btn{
+    width: 200px;
+    height: 50px;
+    font-weight: bolder;
+    background-color:var(--accent-color);
+    color: var(--highlight-text-color);
+    border-radius: 10px;
+    border: none;
+}
 
 
 /*footer styles*/

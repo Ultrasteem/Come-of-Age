@@ -26,13 +26,6 @@ h1, h2, h3, h4, h5, h6{
 }
 p, li{
     font-family: var(--primary-font);
-    font-size: larger;
-}
-
-/*fix for bug with navbar scroll*/
-nav div.container-fluid, h1,p,h4{
-    overflow: hidden !important;
-   
 }
 
 /*set flex box and styles for body*/
@@ -43,8 +36,13 @@ body{
     flex-direction: column;
     width: 100vw;
 }
-/*nav styles*/
 
+/*fix for bug with text scroll*/
+nav div.container-fluid, h1,p,h4{
+    overflow: hidden !important;
+   
+}
+/*nav styles*/
 nav, nav div dialog{
     background-color: var(--header-footer-background-color);
     color: var(--highlight-text-color);
@@ -61,12 +59,13 @@ header{
     background-color: var(--header-footer-background-color);
     color: var(--highlight-text-color);
     position: relative;
-    padding-top: 70px;
+    padding-top: 55px;
     width: 100vw;
     align-items: center;
     justify-content: center;
     
 }
+
 /*fix width of header container*/
 header div.container.text-center{
     margin: 0px;
@@ -82,6 +81,10 @@ header div.container div.grid div{
     justify-content: center;
 }
 
+#workshop-header{
+    background-color: var(--accent-color);
+}
+
 
 /*main-content styles and set width, height*/
 #main-content{
@@ -93,20 +96,13 @@ header div.container div.grid div{
     padding-top: 1.5rem;
     
 }
-
 /*general section styling for main content*/
 main section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
 }
-
-/*adjust margin below titles in main content*/
-.section-title{
-    margin-bottom:1.5rem;
-}
-
 /*card styling*/
 .testemonial-card{
     background-color: transparent;
@@ -114,7 +110,30 @@ main section{
     max-width: 300px;
     border: none;
     color: var(--primary-text-color);
+    img{
+        border-radius: 100%;
+        object-fit: cover;
+        height: 200px;
+        width: 200px;
+}
    
+}
+.workshop-card{
+    margin: 1.25rem;
+    background-color: var(--accent-color);
+    width: auto;
+    max-width: 500px;
+    border: none;
+    color: var(--highlight-text-color);
+    img{
+        object-fit: cover;
+        width: inherit;
+        height: 300px;
+        margin-top: 1.25rem;
+        margin-right: 1.25rem;
+        margin-left: 1.25rem;
+        border-radius: 0px;
+    }
 }
 .card {
     display: flex;
@@ -129,12 +148,7 @@ main section{
     padding:1rem 2rem;
     border-top: transparent;
 }
-.testemonial-card img{
-    border-radius: 100%;
-    object-fit: cover;
-    height: 200px;
-    width: 200px;
-}
+
 
 
 
@@ -149,25 +163,18 @@ footer{
 
 .footer-info{
     padding:1.5rem;
-
 }
 
-/* social media icon styling */
-
-.social-media-icons {
-    margin-top: 1.5rem;
+.social-media-icons{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-
-    a{
-       color: inherit !important;
-        text-decoration: none; 
-        font-size: x-large;
-    }
-    p{
-    margin-bottom: 1.5rem;
-    }
+    align-items: center;
+    
+}
+.social-media-icons a{
+        color: inherit !important;
+        text-decoration: none;
 }
 
 

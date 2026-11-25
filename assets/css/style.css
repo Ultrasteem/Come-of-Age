@@ -24,7 +24,7 @@
 h1, h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
 }
-p, li{
+p, li, label{
     font-family: var(--primary-font);
 }
 
@@ -152,6 +152,34 @@ main section{
 .card-body{
     padding:1rem 2rem;
     border-top: transparent;
+}
+
+/* booking form styling */
+#booking-form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.booking-form{
+    
+    background-color: var(--accent-color);
+    padding: 2.3rem;
+    border-radius: 30px;
+    width: auto;
+    
+    label{
+        color: var(--highlight-text-color);
+        font-weight: bold;
+    }
+    .personal{
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        border: none;
+        height: 1.9rem;
+        padding-left: 5px;
+    }
 }
 
 /*Book Now button styling*/

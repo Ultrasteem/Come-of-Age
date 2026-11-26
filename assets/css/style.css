@@ -35,7 +35,8 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
+    min-height:100vh;
 }
 
 /*fix for bug with text scroll*/
@@ -90,11 +91,15 @@ header div.container div.grid div{
 /*main-content styles and set width, height*/
 #main-content{
     width: 100vw;
-    height: fit-content;
+    height: inherit;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
+    /*fix view height not filling remaining screen*/
+    flex: 1 0 auto;
+    
+
     
 }
 /*general section styling for main content*/

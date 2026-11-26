@@ -119,10 +119,36 @@ Booking Success
 * Google fonts - Fonts for site
 * Fontawesome - Icons 
 * Favicon.io - Favicons
-
-## Code reference
-
+* Pixlr - Free image format convertion
 
 ## Bugs
 
+### 1. Main not covering the full width of view port
+![bug 1](/documentation/bugs/bug%201.png)
 
+This was caused by the width of "body" tag not being defined properly in style.css. After manuel testing of the "main" tag, the body tag was deemed to be the root cause.
+
+### 2. Header not showing at the top under nav bar
+![bug 2](/documentation/bugs/bug%202.png)
+
+This was caused when applying "position: fixed" to the "nav" tag. "position: sticky" was tested and did not work. after consulting code institute lms learning platform, applying "margin-top: 65px" to "header" tag fixed this issue. 
+
+### 3. scroll on various bits of text
+![bug 3](/documentation/bugs/bug%203.png)
+
+This affected is believed to be affected by the global styling used in all pages and in each section. It is possible that the global style for "overflow-y: hidden". this styling was removed and was not the cause. Using ai assistance in google web tools, "overflow: hidden !important" was added to any affected elements. this fixed this bug for now but needs further diagnois to find the root cause.
+
+### 4. clipping of text in the footer
+![bug 4](/documentation/bugs/bug%204.png)
+
+This was found while testing responsiveness in web tools. this appears if the width of the view-port is 576px - 715px. this is caused by the padding applied to the "footer" elements. This can be fixed by using a media query for these elements to change the spacing between these width levels, also by altering padding or applying text-wrapping to ".footer-info". However, due to time constraints, and the fact that this range was deemed uncommon for modern device view-ports, this will be fixed in a future build.
+
+### 5.Main body not filling remaining space of viewport
+![bug 5](/documentation/bugs/bug%205.png)
+
+Found while testing tablet presets in web tools. A fix for this was found on stackoverflow https://stackoverflow.com/questions/90178/make-a-div-fill-the-height-of-the-remaining-screen-space. 
+
+### 6. nav dialog menu pinned to the right 
+![bug 6](/documentation/bugs/bug%206.png)
+
+This was found using the ipad mini preset in web tools. its cause by a bootstrap class "md:justify-content-end" in "dialog" not synced with the colapsing functionality of the bootstrap nav. Testing by changing this class to "sm:" and "lg" but was not fixed. Another possible fix for this could be a media query to added to this element to overwrite bootstrap, but due to time constraints, this must be added in a future build.

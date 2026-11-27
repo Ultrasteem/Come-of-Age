@@ -32,11 +32,14 @@ This README is used to document the progress of the project and the usage of the
 ### Features on release
 
 1. A simple navigation bar that colapses into a drop down on small screens
-2. sign-up form for newsletter
+2. Form for booking Workshops
 3. responsive website for all devices
-4. contact form for feedback and inquiries
-5. footer with links to social media
+4. footer with links to social media and contact info
+5. Testimonies section from students and teachers
 
+### Features for future releases
+1. contact form for feedback and inquiries
+2. form to sign-up for newsletter
 ### Design 
 
 #### Colour Scheme
@@ -103,7 +106,7 @@ Booking Success
 * Javascript (using [Bootstrap 6.0](https://getbootstrap.com/)) - navigation, forms and responsive design
 * VS Code - Text/code editor
 * Chrome web tools - debugging
-
+* validator.w3 - code validation and debugging
 
 ### Documentation
 
@@ -120,6 +123,39 @@ Booking Success
 * Fontawesome - Icons 
 * Favicon.io - Favicons
 * Pixlr - Free image format convertion
+
+## Testing
+### Automated
+
+### Manual
+* Chrome Dev tools - Testing responsive design with screen presets.
+* Tested with different devices:
+    - Tablet - Samsung Galaxy Tab S 8
+    - Phone - Google Pixel 7 
+    - Laptop - Lenovo Ideapad Pro 5
+* Tested on Different Browsers
+    - Google Chrome
+    - Firefox
+    - Microsoft Edge
+
+## Validation
+Validator used was W3C Validator
+### HTML
+#### index.html
+![index.html-validaion](/documentation/validation/validation-home-page.png)
+![workshops.html-validaion](/documentation/validation/validation-workshops.png)
+![lectures.html-validaion](/documentation/validation/validation-lectures.png)
+![book-workshop.html-validaion](/documentation/validation/validation-book-workshop.png)
+![success.html-validaion](/documentation/validation/validation-success.png)
+
+
+### CSS
+
+![CSS-validation](/documentation/validation/validation-css.png)
+
+
+
+
 
 ## Bugs
 

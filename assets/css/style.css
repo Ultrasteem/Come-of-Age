@@ -21,7 +21,7 @@
     overflow-x: hidden;
     
 }
-h1, h2, h3, h2, h5, h6{
+h1, h3, h3, h4, h5, h6{
     font-family: var(--heading-font);
 }
 p, li, label{
@@ -40,7 +40,7 @@ body{
 }
 
 /*fix for bug with text scroll*/
-nav div.container-fluid, h1,p,h3,h2{
+nav div.container-fluid, h1,p,h3,h4{
     overflow: hidden !important;
    
 }

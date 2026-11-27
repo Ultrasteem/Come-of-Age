@@ -53,7 +53,7 @@ Assisted by [Claude](https://claude.ai/)
 
 This is not implimented in this build due to time constraints. However the contact details of the organisation is displayed in the footer and the contact us link in the navbar links to the footer making it easier to find.
 
-3. As a student, I need a clear list of workshops so I can find the one i need easily.
+3. As a student, I need a clear list of workshops so I can find the one I need easily.
     - A dedicated Workshops page lists all available workshops.
     - Each workshop shows a title, short description, date and duration.
     - Workshops are presented in a consistent layout
@@ -204,6 +204,7 @@ Booking Success
 
 ## Testing
 ### Automated - Lighthouse
+scores were taken after validating the code. performance can be improved in various ways but these imporvements must be done in a future build, due to time constraints on this project.
 * index.html
 
     - Mobile
@@ -249,6 +250,7 @@ Booking Success
     - Google Chrome
     - Firefox
     - Microsoft Edge
+
 
 ## Validation
 Validator used - W3C Validator
@@ -434,6 +436,8 @@ For developers coming back to this project or new developers taking over the pro
 * Under Build and Development, under branch, click on the drop down menu and choose /main then save
 * After a few minutes, refresh the page
 * At the top of the screen it will confirm that the website is deployed with a link to visit.
+
+It is important to deploy this application while developing as unexpected issues may arrise on a deployed site that are a non-issue when hosted locally.
 
 
 

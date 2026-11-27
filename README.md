@@ -187,7 +187,6 @@ Booking Success
 * W3C Validator - code validation and debugging
 
 ### Documentation
-
 * Git/Github - Versioning, Project management, Deployment
 * Whimsical - Wireframing 
 * Lighthouse - Automated testing

@@ -42,11 +42,14 @@ Assisted by [Claude](https://claude.ai/)
     - Buttons and links are large enough to tap easily.
     - The site works in the latest versions of Chrome, Safari, Firefox and Edge.
     - The navigation adapts on small screens
+    ![responsive](/documentation/user%20story/responsive.png)
+    ![responsive2](/documentation/user%20story/responsive2.png)
 
 2. As a school staff member, I need a simple form to contact the organisation so I can coordinate workshops and lectures for students.
     - Name, email and message are required.
     - Given all required fields are valid, when the user submits, then a confirmation message is displayed.
     - Form fields have visible labels.
+    ![details](/documentation/user%20story/footerdetails.png)
 
 This is not implimented in this build due to time constraints. However the contact details of the organisation is displayed in the footer and the contact us link in the navbar links to the footer making it easier to find.
 
@@ -56,14 +59,17 @@ This is not implimented in this build due to time constraints. However the conta
     - Workshops are presented in a consistent layout
     - Each workshop has a link or button to see more details or enquire.
     - The list is easy to read, with clear headings and evenly spaced.
+    ![workshoplist](/documentation/user%20story/workshop.png)
 
 4. As a student, I would like to sign up to a newsletter so i can find up-to-date information about future workshops and events.
     - The form fields are required to be filled for the form to be submitted.
     - Given a valid information, when the user submits, then a success message is shown.
     - Given an invalid or empty email, when the user submits, then an error message is shown.
     - Fields are labled clearly.
-
+    ![form](/documentation/user%20story/form1.png)
+    ![form2](/documentation/user%20story/form2.png)
 This is not in the final build. instead a workshop booking form was implimented in its place. It covers the same requirements as above.
+
 
 5. As a potential client, I need to see clear images and layout so I can better understand the information given on the site.
     - All images are high-resolution and display sharply on desktop and mobile.
@@ -71,6 +77,7 @@ This is not in the final build. instead a workshop booking form was implimented 
     - Every image has descriptive alt text.
     - Layout uses consistent spacing, alignment and heading hierarchy throughout.
     - Content is broken into sections so information is easy to find.
+    ![clearpicture](/documentation/user%20story/headerpic.png)
 
 6. As a teacher, I would like to see a number of links to social media and online resourses so i can see if booking  a workshop is good for my students.
     - Links to the social media are visible in the header or footer on every page.
@@ -78,7 +85,8 @@ This is not in the final build. instead a workshop booking form was implimented 
     - All links work and lead to the correct destination.
     - External links open in a new tab.
     - Links are checked and none are broken.
-
+    ![links](/documentation/user%20story/navigationlinks.png)
+    ![links2](/documentation/user%20story/socials.png)
 There are no external reasources in this currently this build. links to social media are in the footer.
 
 
@@ -88,13 +96,15 @@ There are no external reasources in this currently this build. links to social m
     -At least 3 testimonials are displayed at launch.
     - Testimonials are displayed in a readable format that works on mobile and desktop.
     - Where possible, each testimonial states which workshop it refers to.
-
+    ![testimony](/documentation/user%20story/testimony.png)
 
 8. As a client, I need there to be a user friendly layout and navigation so I can quickly find the information I need about the services provided.
     - A main navigation menu appears consistently on every page.
     - Navigation labels are clear and descriptive.
     - The current page is visibly highlighted in the navigation.
     - The logo or site name links back to the homepage.
+    ![logo nav](/documentation/user%20story/nav.png)
+    ![nav 2](/documentation/user%20story/nav3.png)
 
 ### Features on release
 

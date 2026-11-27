@@ -203,20 +203,21 @@ main section{
     }
 }
 
-/*Book Now button styling*/
+/*button styling for book now and home*/
 
-#book-now-btn{
+.book-now-btn{
+    display: inline-block;
     font-family: var(--heading-font);
     text-align: center;
     text-decoration: none;
     font-size: 32px;
     width: 200px;
     height: 50px;
-    font-weight: bolder;
     background-color:var(--accent-color);
     color: var(--highlight-text-color);
     border-radius: 10px;
     border: none;
+    
 }
 
 

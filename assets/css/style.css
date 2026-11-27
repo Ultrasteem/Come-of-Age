@@ -206,6 +206,10 @@ main section{
 /*Book Now button styling*/
 
 #book-now-btn{
+    font-family: var(--heading-font);
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
     width: 200px;
     height: 50px;
     font-weight: bolder;

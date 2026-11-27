@@ -190,6 +190,7 @@ Booking Success
 
 * Git/Github - Versioning, Project management, Deployment
 * Whimsical - Wireframing 
+* Lighthouse - Automated testing
 
 ### Assets
 

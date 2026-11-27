@@ -3,6 +3,16 @@ A non profit organisation that is dedicated to teaching fundamental skills and r
 
 This README is used to document the progress of the project and the usage of the website. Other developers of this project can refer to this document in order to better understand this project and its goals. Please make regular changes to this document when making further changes to the project.
 
+## Contents
+1. [Project Goals](#project-goals)
+2. [User Experience](#user-experience)
+3. [Technologies](#technologies)
+4. [Testing](#testing)
+5. [Validation](#validation)
+6. [Bugs](#bugs)
+7. [External Code](#external-code)
+8. [Credits](#credits)
+
 ## Project Goals
 
 ### Business Goals
@@ -20,14 +30,68 @@ This README is used to document the progress of the project and the usage of the
 ## User Experience
 
 ### User Stories
+Assisted by [Claude](https://claude.ai/)
+
 1. As a student, I want a responsive website so I can view on my phone and computers at school.
+    - The layout adapts correctly at mobile, tablet and desktop viewports.
+    - No horizontal scrolling.
+    - Text is readable without zooming.
+    - Buttons and links are large enough to tap easily.
+    - The site works in the latest versions of Chrome, Safari, Firefox and Edge.
+    - The navigation adapts on small screens
+
 2. As a school staff member, I need a simple form to contact the organisation so I can coordinate workshops and lectures for students.
+    - Name, email and message are required.
+    - Given all required fields are valid, when the user submits, then a confirmation message is displayed.
+    - Form fields have visible labels.
+
+This is not implimented in this build due to time constraints. However the contact details of the organisation is displayed in the footer and the contact us link in the navbar links to the footer making it easier to find.
+
 3. As a student, I need a clear list of workshops so I can find the one i need easily.
+    - A dedicated Workshops page lists all available workshops.
+    - Each workshop shows a title, short description, date and duration.
+    - Workshops are presented in a consistent layout
+    - Each workshop has a link or button to see more details or enquire.
+    - The list is easy to read, with clear headings and evenly spaced.
+
 4. As a student, I would like to sign up to a newsletter so i can find up-to-date information about future workshops and events.
+    - The form fields are required to be filled for the form to be submitted.
+    - Given a valid information, when the user submits, then a success message is shown.
+    - Given an invalid or empty email, when the user submits, then an error message is shown.
+    - Fields are labled clearly.
+
+This is not in the final build. instead a workshop booking form was implimented in its place. It covers the same requirements as above.
+
 5. As a potential client, I need to see clear images and layout so I can better understand the information given on the site.
+    - All images are high-resolution and display sharply on desktop and mobile.
+    - Images are relevant to the page the user is on.
+    - Every image has descriptive alt text.
+    - Layout uses consistent spacing, alignment and heading hierarchy throughout.
+    - Content is broken into sections so information is easy to find.
+
 6. As a teacher, I would like to see a number of links to social media and online resourses so i can see if booking  a workshop is good for my students.
-7. as A student , I want to read testemonials from these workshops to see if joining one is right for me.
+    - Links to the social media are visible in the header or footer on every page.
+    - A resources section or page lists relevant external links.
+    - All links work and lead to the correct destination.
+    - External links open in a new tab.
+    - Links are checked and none are broken.
+
+There are no external reasources in this currently this build. links to social media are in the footer.
+
+
+7. as A student, I want to read testimonials from these workshops to see if joining one is right for me.
+    - A testimonials section or page is accessible from the main navigation or homepage.
+    - Each testimonial includes the quote and the name or role of the person.
+    -At least 3 testimonials are displayed at launch.
+    - Testimonials are displayed in a readable format that works on mobile and desktop.
+    - Where possible, each testimonial states which workshop it refers to.
+
+
 8. As a client, I need there to be a user friendly layout and navigation so I can quickly find the information I need about the services provided.
+    - A main navigation menu appears consistently on every page.
+    - Navigation labels are clear and descriptive.
+    - The current page is visibly highlighted in the navigation.
+    - The logo or site name links back to the homepage.
 
 ### Features on release
 
@@ -40,6 +104,7 @@ This README is used to document the progress of the project and the usage of the
 ### Features for future releases
 1. contact form for feedback and inquiries
 2. form to sign-up for newsletter
+3. external reasource links
 ### Design 
 
 #### Colour Scheme
@@ -106,7 +171,7 @@ Booking Success
 * Javascript (using [Bootstrap 6.0](https://getbootstrap.com/)) - navigation, forms and responsive design
 * VS Code - Text/code editor
 * Chrome web tools - debugging
-* validator.w3 - code validation and debugging
+* W3C Validator - code validation and debugging
 
 ### Documentation
 
@@ -125,7 +190,41 @@ Booking Success
 * Pixlr - Free image format convertion
 
 ## Testing
-### Automated
+### Automated - Lighthouse
+* index.html
+
+    - Mobile
+    ![i-mobile](/documentation/lighthouse%20testing/i-mobile.png)
+    - Desktop
+    ![i-desk](/documentation/lighthouse%20testing/i-desk.png)
+
+* workshop.html
+
+    - Mobile
+    ![w-mobile](/documentation/lighthouse%20testing/w-mobile.png)
+    - Desktop
+    ![w-desk](/documentation/lighthouse%20testing/i-desk.png)
+
+* lectures.html
+
+    - Mobile
+    ![l-mobile](/documentation/lighthouse%20testing/l-mobile.png)
+    - Desktop
+    ![l-mobile](/documentation/lighthouse%20testing/l-desk.png)
+
+* book-workshop.html
+
+    - Mobile
+    ![b-mobile](/documentation/lighthouse%20testing/b-mobile.png)
+    - Desktop
+    ![b-desk](/documentation/lighthouse%20testing/b-desk.png)
+
+* success.html
+
+    - Mobile
+    ![s-mobile](/documentation/lighthouse%20testing/s-mobile.png)
+    - Desktop
+    ![s-desk](/documentation/lighthouse%20testing/s-deck.png)
 
 ### Manual
 * Chrome Dev tools - Testing responsive design with screen presets.
@@ -139,23 +238,23 @@ Booking Success
     - Microsoft Edge
 
 ## Validation
-Validator used was W3C Validator
+Validator used - W3C Validator
 ### HTML
 #### index.html
 ![index.html-validaion](/documentation/validation/validation-home-page.png)
+#### workshop.html
 ![workshops.html-validaion](/documentation/validation/validation-workshops.png)
+#### lectures.html
 ![lectures.html-validaion](/documentation/validation/validation-lectures.png)
+#### book-workshop.html
 ![book-workshop.html-validaion](/documentation/validation/validation-book-workshop.png)
+#### success
 ![success.html-validaion](/documentation/validation/validation-success.png)
 
 
 ### CSS
 
 ![CSS-validation](/documentation/validation/validation-css.png)
-
-
-
-
 
 ## Bugs
 
@@ -188,3 +287,133 @@ Found while testing tablet presets in web tools. A fix for this was found on sta
 ![bug 6](/documentation/bugs/bug%206.png)
 
 This was found using the ipad mini preset in web tools. its cause by a bootstrap class "md:justify-content-end" in "dialog" not synced with the colapsing functionality of the bootstrap nav. Testing by changing this class to "sm:" and "lg" but was not fixed. Another possible fix for this could be a media query to added to this element to overwrite bootstrap, but due to time constraints, this must be added in a future build.
+
+## External Code
+Most external code snippets are taken from Bootstrap:
+
+### Navbar
+Taken and altered from:
+https://getbootstrap.com/docs/6.0/components/navbar/
+```
+<nav class="navbar md:navbar-expand bg-1 fg-2 position-fixed top-0 start-0 end-0 z-fixed">
+        <div  class="container-fluid justify-content-center position-relative">
+            <a class="navbar-brand " href="index.html"><h2 >Come of Age</h2></a>
+
+            <button class="btn-icon navbar-toggler position-absolute end-0" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" aria-hidden="true"></span>
+            </button>
+
+            <dialog class="drawer drawer-top end-0 align-items-center md:align-items-end rounded-0" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel ">
+                
+                <button type="button" class="btn-close position-absolute end-0 top-0 sm:d-none
+            " data-bs-dismiss="drawer" aria-label="Close"></button>
+                <div class="drawer-body justify-content-center">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item justify-content-center">
+                            <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item justify-content-center">
+                            <a class="nav-link" href="workshops.html">Workshops</a>
+                        </li>
+                        <li class="nav-item justify-content-center">
+                            <a class="nav-link" href="lectures.html">Lectures</a>
+                        </li>
+                        <li class="nav-item justify-content-center ">
+                            <a class="nav-link" href="#bottom">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </dialog>
+        </div>
+    </nav>
+```
+
+### Cards
+
+Taken and altered from: https://getbootstrap.com/docs/6.0/components/card/
+This is used for testimony cards and workshop cards
+```
+<div class="container card-section">
+                    <div class="row row-cols-1 lg:row-cols-2 g-4 card-wrapper">
+                        <div class="col">
+                            <div class="card workshop-card">
+                            <img src="assets/images/home-maintain-generated-by-gemini.webp" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">Household Esssentials - Maintain your Home</h3>
+                                <p class="card-text">Fixing a leaking tap, bleeding a radiator, learning how to read a tenancy agreements
+                                    <br>
+                                    <strong>Date: 19th December</strong>
+                                    <br>
+                                    <strong>Time: 14:30 - 17:00 </strong>
+                                    <br>
+                                    <strong>Old Harlow Community Centre</strong>
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+```                     
+### Form Radio
+
+Taken and altered from: https://getbootstrap.com/docs/6.0/forms/radio/
+```
+                    <div class="workshop-selector ">
+                        <div class="form-field select">
+                            <input class="radio" name="radios" type="radio" id="radioLabel" >
+                            <label for="radioLabel">Household Esssentials - Maintain your Home</label>
+                        </div>
+                        <div class="form-field select">
+                            <input class="radio" name="radios" type="radio" id="radioLabel2" >
+                            <label for="radioLabel2">First Steps in Raising Children</label>
+                        </div>
+                        <div class="form-field select">
+                            <input class="radio" name="radios" type="radio" id="radioLabel3">
+                            <label for="radioLabel3">Successful Hunting - CVs and Job Searching</label>
+                        </div>
+                        <div class="form-field select">
+                            <input class="radio" name="radios" type="radio" id="radioLabel4">
+                            <label for="radioLabel4">Finance your Future</label>
+                        </div>
+                    </div>
+
+```  
+
+### Bug fixes
+
+Taken from ai assitant in chrome dev tools
+```
+/*fix for bug with text scroll*/
+nav div.container-fluid, h1,p,h3,h4,h2{
+    overflow: hidden !important;
+}
+```
+fixes scolling bug
+
+taken from: https://stackoverflow.com/questions/90178/make-a-div-fill-the-height-of-the-remaining-screen-space.
+```
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height:100vh;
+}
+
+
+#main-content{
+    width: 100vw;
+    height: inherit;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    /*fix view height not filling remaining screen*/
+    flex: 1 0 auto;
+}
+```
+implimented flex: 1 0 auto to main content and min-height: 100vh to fix main section not filling the remaining space
+
+
+## Credits
+* Code Institute
+* 

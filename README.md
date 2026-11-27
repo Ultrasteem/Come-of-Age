@@ -428,10 +428,9 @@ For developers coming back to this project or new developers taking over the pro
 
 
 ## Credits
-* [Code Institute LMS](https://lms.codeinstitute.net/) - 
-* [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/) - 
-* [Claude](https://claude.ai/) - 
-* Paul Thomas - 
-* Febria Salim - 
-* [Bootstrap 6.0](https://getbootstrap.com/docs/6.0/) - 
-* [Pawsome Strolls] - 
+* [Code Institute LMS](https://lms.codeinstitute.net/) - for the wide range of learning materials and references while building this project
+* [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/) - For use in writing this readme
+* [Claude](https://claude.ai/) - For use in this readme and on the website, helping with wording user stories and generating prompts, and text for the website
+* Paul Thomas from Code Institute - For the helpful calls and advice throughout this project
+* [Bootstrap 6.0](https://getbootstrap.com/docs/6.0/) - for api, and documentation of its many uses
+* [Pawsome Strolls](https://github.com/Chandni-L5/pawsome-strolls/blob/main/README.md) - For use as a reference when writing this readme

@@ -219,6 +219,8 @@ main section{
     color: var(--highlight-text-color);
     border-radius: 10px;
     border: none;
+    margin-left: auto ;
+    margin-right: auto ;
     
 }
 

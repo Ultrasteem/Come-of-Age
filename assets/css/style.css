@@ -146,8 +146,10 @@ main section{
     }
 }
 /* workshop booking for styles */
-
-
+#workshops{
+   display: flex; 
+   flex-direction: column;
+}
 /* general card styling */
 .card {
     display: flex;
@@ -206,7 +208,7 @@ main section{
 /*button styling for book now and home*/
 
 .book-now-btn{
-    display: inline-block;
+    display: block;
     font-family: var(--heading-font);
     text-align: center;
     text-decoration: none;

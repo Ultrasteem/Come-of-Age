@@ -3,6 +3,8 @@ A non profit organisation that is dedicated to teaching fundamental skills and r
 
 This README is used to document the progress of the project and the usage of the website. Other developers of this project can refer to this document in order to better understand this project and its goals. Please make regular changes to this document when making further changes to the project.
 
+View the website [here](https://ultrasteem.github.io/Come-of-Age/index.html)
+
 ## Contents
 1. [Project Goals](#project-goals)
 2. [User Experience](#user-experience)
@@ -11,7 +13,8 @@ This README is used to document the progress of the project and the usage of the
 5. [Validation](#validation)
 6. [Bugs](#bugs)
 7. [External Code](#external-code)
-8. [Credits](#credits)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
 
 ## Project Goals
 
@@ -240,15 +243,15 @@ Booking Success
 ## Validation
 Validator used - W3C Validator
 ### HTML
-#### index.html
+* index.html
 ![index.html-validaion](/documentation/validation/validation-home-page.png)
-#### workshop.html
+* workshop.html
 ![workshops.html-validaion](/documentation/validation/validation-workshops.png)
-#### lectures.html
+* lectures.html
 ![lectures.html-validaion](/documentation/validation/validation-lectures.png)
-#### book-workshop.html
+* book-workshop.html
 ![book-workshop.html-validaion](/documentation/validation/validation-book-workshop.png)
-#### success
+* success
 ![success.html-validaion](/documentation/validation/validation-success.png)
 
 
@@ -413,7 +416,22 @@ body{
 ```
 implimented flex: 1 0 auto to main content and min-height: 100vh to fix main section not filling the remaining space
 
+## Deployment
+For developers coming back to this project or new developers taking over the project, please follow these steps below to deploy this application:
+* Log into Github
+* Find the Github repo 
+* Open settings and click on the Pages tab
+* Under Build and Development, under branch, click on the drop down menu and choose /main then save
+* After a few minutes, refresh the page
+* At the top of the screen it will confirm that the website is deployed with a link to visit.
+
+
 
 ## Credits
-* Code Institute
-* 
+* [Code Institute LMS](https://lms.codeinstitute.net/) - 
+* [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/) - 
+* [Claude](https://claude.ai/) - 
+* Paul Thomas - 
+* Febria Salim - 
+* [Bootstrap 6.0](https://getbootstrap.com/docs/6.0/) - 
+* [Pawsome Strolls] - 
